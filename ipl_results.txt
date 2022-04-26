@@ -1,0 +1,68 @@
+Looping at depth 0 
+node: Root, 	goal G3, 	depth: 0
+Result: None, 	Goal: G3
+
+Looping at depth 1 
+node: Root, 	goal G3, 	depth: 1
+Looping through children: ['CSK', 'GT', 'PBKS', 'KKR']
+node: CSK, 	goal G3, 	depth: 0
+node: GT, 	goal G3, 	depth: 0
+node: PBKS, 	goal G3, 	depth: 0
+node: KKR, 	goal G3, 	depth: 0
+Result: None, 	Goal: G3
+
+Looping at depth 2 
+node: Root, 	goal G3, 	depth: 2
+Looping through children: ['CSK', 'GT', 'PBKS', 'KKR']
+node: CSK, 	goal G3, 	depth: 1
+Looping through children: []
+node: GT, 	goal G3, 	depth: 1
+Looping through children: ['G1']
+node: G1, 	goal G3, 	depth: 0
+node: PBKS, 	goal G3, 	depth: 1
+Looping through children: ['P1']
+node: P1, 	goal G3, 	depth: 0
+node: KKR, 	goal G3, 	depth: 1
+Looping through children: ['K1']
+node: K1, 	goal G3, 	depth: 0
+Result: None, 	Goal: G3
+
+Looping at depth 3 
+node: Root, 	goal G3, 	depth: 3
+Looping through children: ['CSK', 'GT', 'PBKS', 'KKR']
+node: CSK, 	goal G3, 	depth: 2
+Looping through children: []
+node: GT, 	goal G3, 	depth: 2
+Looping through children: ['G1']
+node: G1, 	goal G3, 	depth: 1
+Looping through children: ['G2']
+node: G2, 	goal G3, 	depth: 0
+node: PBKS, 	goal G3, 	depth: 2
+Looping through children: ['P1']
+node: P1, 	goal G3, 	depth: 1
+Looping through children: []
+node: KKR, 	goal G3, 	depth: 2
+Looping through children: ['K1']
+node: K1, 	goal G3, 	depth: 1
+Looping through children: ['K2']
+node: K2, 	goal G3, 	depth: 0
+Result: None, 	Goal: G3
+
+Looping at depth 4 
+node: Root, 	goal G3, 	depth: 4
+Looping through children: ['CSK', 'GT', 'PBKS', 'KKR']
+node: CSK, 	goal G3, 	depth: 3
+Looping through children: []
+node: GT, 	goal G3, 	depth: 3
+Looping through children: ['G1']
+node: G1, 	goal G3, 	depth: 2
+Looping through children: ['G2']
+node: G2, 	goal G3, 	depth: 1
+Looping through children: ['G3']
+node: G3, 	goal G3, 	depth: 0
+ --- Found goal, returning --- 
+Result: G3, 	Goal: G3
+
+Total iterations =  4
+Results are:  {'CSK': 0, 'GT': 3, 'PBKS': 1, 'KKR': 2}
+The winner is:  GT
